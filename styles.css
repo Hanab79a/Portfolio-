@@ -1,0 +1,105 @@
+/* إعدادات عامة */
+body {
+  background-color: #0d0f1a; /* خلفية غامقة */
+  color: #e0e0ff; /* لون الكتابة لبني فاتح */
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* العنوان الرئيسي */
+.title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #6a5acd; /* بنفسجي */
+  margin-top: 40px;
+  text-shadow: 0 0 10px #6a5acd, 0 0 20px #00bfff;
+}
+
+/* الفقرة تحت الاسم */
+p {
+  text-align: center;
+  color: #b0c4de; /* لبني ناعم */
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+/* كل الأقسام */
+section {
+  width: 80%;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(106, 90, 205, 0.3);
+}
+
+/* عناوين الأقسام */
+h3 {
+  color: #87cefa; /* أزرق لبني */
+  border-bottom: 2px solid #6a5acd;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* القوائم */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+/* Bars (نسبة المهارات) */
+.bar {
+  background: #1e1e2f;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 12px;
+  margin-top: 5px;
+}
+
+.fill {
+  background: linear-gradient(90deg, #6a5acd, #00bfff, #87cefa);
+  height: 100%;
+  border-radius: 20px;
+  width: 0;
+  animation: fill 2s forwards;
+}
+
+/* حركة الملء */
+@keyframes fill {
+  from { width: 0; }
+  to { width: 60%; }
+}
+
+/* الروابط والصور */
+a img {
+  margin: 10px;
+  border-radius: 50%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+a img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #00bfff;
+}
+
+/* الروابط */
+a {
+  text-decoration: none;
+}
+
+/* تحسين المظهر للموبايل */
+@media (max-width: 600px) {
+  body {
+    font-size: 0.9em;
+  }
+  section {
+    width: 90%;
+  }
+}
