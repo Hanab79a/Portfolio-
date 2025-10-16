@@ -64,17 +64,16 @@ li {
 }
 
 .fill {
-  background: linear-gradient(90deg, #6a5acd, #00bfff, #87cefa);
-  height: 100%;
-  border-radius: 20px;
-  width: 0;
-  animation: fill 2s forwards;
+  height: 10px;
+  background-color: #00bfff;
+  border-radius: 5px;
+  width: auto; /* يسمح للعرض في HTML بالتحكم */
 }
 
 /* حركة الملء */
 @keyframes fill {
   from { width: 0; }
-  to { width: var(--target-width); }
+  to { width: inherit; } /* ياخد العرض اللي محطوط في HTML */
 }
 
 .Courses {
@@ -88,7 +87,7 @@ li {
   border-radius: 10px; /* يخلي الأطراف ناعمة وجميلة */
   display: block; 
   margin: 10px auto; /* يخلي الصورة في النص */
-  object-fit: cover; /* يضمن أن الصورة مش هتتشوه */
+  object-fit: cover; 
 }
 .Competition {
   text-align: center;
@@ -143,5 +142,6 @@ a {
     width: 90%;
   }
 }
+
 
 
