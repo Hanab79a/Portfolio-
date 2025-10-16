@@ -77,6 +77,46 @@ li {
   to { width: 60%; }
 }
 
+.Courses {
+  text-align: center;
+  padding: 10px;
+}
+
+.Courses img {
+  width: 150px; /* عرض الصورة */
+  height: auto; /* يحافظ على التناسق */
+  border-radius: 10px; /* يخلي الأطراف ناعمة وجميلة */
+  display: block; 
+  margin: 10px auto; /* يخلي الصورة في النص */
+  object-fit: cover; /* يضمن أن الصورة مش هتتشوه */
+}
+.Competition {
+  text-align: center;
+  padding: 10px;
+}
+
+.Competition img {
+  width: 150px; /* عرض الصورة */
+  height: auto; /* يحافظ على التناسق */
+  border-radius: 10px; /* يخلي الأطراف ناعمة وجميلة */
+  display: block; 
+  margin: 10px auto; /* يخلي الصورة في النص */
+  object-fit: cover; /* يضمن أن الصورة مش هتتشوه */
+}
+
+.Volunteerwork {
+  text-align: center;
+  padding: 10px;
+}
+
+.Volunteerwork img {
+  width: 150px; /* عرض الصورة */
+  height: auto; /* يحافظ على التناسق */
+  border-radius: 10px; /* يخلي الأطراف ناعمة وجميلة */
+  display: block; 
+  margin: 10px auto; /* يخلي الصورة في النص */
+  object-fit: cover; /* يضمن أن الصورة مش هتتشوه */
+}
 /* الروابط والصور */
 a img {
   margin: 10px;
@@ -103,3 +143,4 @@ a {
     width: 90%;
   }
 }
+
