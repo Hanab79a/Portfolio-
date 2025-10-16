@@ -74,7 +74,7 @@ li {
 /* حركة الملء */
 @keyframes fill {
   from { width: 0; }
-  to { width: 60%; }
+  to { width: var(--target-width); }
 }
 
 .Courses {
@@ -143,4 +143,5 @@ a {
     width: 90%;
   }
 }
+
 
