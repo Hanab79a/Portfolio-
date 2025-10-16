@@ -5,6 +5,13 @@
   text-align: center;     /* لتوسيط النص */
   padding: 20px;
 }
+.title, h3 {
+  text-align: center; /* لتوسيط الاسم والوظيفة */
+}
+
+h1 {
+  margin-bottom: 5px; /* مسافة بسيطة بين الاسم والوظيفة */
+}
 
 .image-container {
   display: flex;
@@ -18,15 +25,17 @@
 }
 
 .about-me-img {
-  display: block; /* مهم جداً عشان يعمل في المنتصف */
+  display: block;  /* مهم جداً عشان يعمل في المنتصف */
   margin: 0 auto;
+  /* باقي التنسيقات زي ما هي */
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
-  border: 3px solid #00bfff; /* اختياري */
+  border: 3px solid #00bfff;
 }
+
 
 
 .about-me-text {
@@ -178,6 +187,7 @@ a {
     width: 90%;
   }
 }
+
 
 
 
