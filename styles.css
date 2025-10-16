@@ -6,6 +6,17 @@
   padding: 20px;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center; /* لتوسيط أفقياً */
+  align-items: center;     /* لتوسيط عمودياً */
+  height: 200px;           /* لازم تحددي ارتفاع للعمود */
+}
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
 .about-me-img {
   width: 150px;
   height: 150px;
@@ -164,6 +175,7 @@ a {
     width: 90%;
   }
 }
+
 
 
 
