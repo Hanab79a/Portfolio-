@@ -1,10 +1,24 @@
+..about-me-section {
+  display: flex;
+  flex-direction: column; /* الصورة فوق النص */
+  align-items: center;    /* لتوسيط الصورة والنص أفقياً */
+  text-align: center;     /* لتوسيط النص */
+  padding: 20px;
+}
+
 .about-me-img {
-  width: 150px;  /* ممكن تزودي أو تنقصي حسب التصميم */
+  width: 150px;
   height: 150px;
-  border-radius: 50%; /* عشان تبقى دائرية */
+  border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
-  border: 3px solid #00bfff; /* اختياري لإطار جميل */
+  border: 3px solid #00bfff; /* اختياري */
+}
+
+.about-me-text {
+  max-width: 600px; /* عشان النص ميبقاش طويل جداً على الشاشات الكبيرة */
+  line-height: 1.6; /* لسهولة القراءة */
+  font-size: 16px;
 }
 /* إعدادات عامة */
 body {
@@ -150,6 +164,7 @@ a {
     width: 90%;
   }
 }
+
 
 
 
